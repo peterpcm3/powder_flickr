@@ -1,0 +1,78 @@
+body
+{
+	background: #000;
+	opacity: .8;
+}
+
+.container
+{
+	width: 100%;
+	height: 100%;
+}
+
+.content
+{
+	padding: 0px 50px 0px 50px;
+}
+
+.flick_item
+{
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.flick_item a
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.flick_item a:hover
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.flick_item .pic
+{
+	margin: 0px;
+	padding: 0px;
+}	
+
+.flick_item img
+{
+	opacity: 0.8
+}
+
+.flick_item img:hover
+{
+	transition: opacity 1s ease;
+	opacity: 1;
+}
+
+.info
+{
+	position: absolute;
+	background: #000;
+	opacity: .8;
+	color: #fff;
+	bottom: 0;
+	margin-bottom: 15px;
+}
+
+.icon
+{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: red;
+	background-color: rgba(0, 0, 0, 0.8);;
+	border-radius: 50%;
+	border: 1x solid grey;
+	padding:10px;
+}
